@@ -1,0 +1,106 @@
+.name_women_department{
+    margin-top: 5%;
+    color: $main_dark_color ;
+    font-weight: 700;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.brand_advertising{
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 400;
+    margin-top: -1%;
+    color: $main_dark_color;
+}
+
+.foto_woman_all{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+    .foto1{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .first{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    .two{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    .three{
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    .four{
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+}
+
+.foto_all_text{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+
+    .foto_all_text_elem1, .foto_all_text_elem2,
+    .foto_all_text_elem3, .foto_all_text_elem4{
+        .text1{
+            color: $main_dark_color;
+            font-size: 1vw;
+            font-weight: 300;
+        }
+
+        .text2{
+            color: $main_dark_color;
+            font-size: 1vw;
+            font-weight: 600;
+        }
+
+        .price{
+            display: flex;
+            flex-direction: row;
+
+            .text3{
+                color: $main_dark_color;
+                font-size: 1vw;
+                font-weight: 400;
+            }
+
+            .text4{
+                color: $main_dark_color;
+                font-size: 1vw;
+                font-weight: 400;
+                color: red;
+                margin-left: 5%;
+            }
+        }
+    }
+
+    .foto_all_text_elem2, .foto_all_text_elem3, .foto_all_text_elem4{
+        margin-left: 5.5%;
+    }
+}
+
+

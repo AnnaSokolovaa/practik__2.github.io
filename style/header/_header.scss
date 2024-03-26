@@ -1,0 +1,121 @@
+$main_dark_color:#22262A;
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-attachment:fixed;
+}
+
+header{
+
+    .logo{
+        color: $main_dark_color;
+        font-weight: bold;
+        font-size: 2vw;
+        line-height: 42px;
+        margin-left: 13%;
+    }
+
+    .test_img{
+        margin-left: auto;
+        margin-right: 15%;
+
+        & img{
+            max-width: 10vw;
+        }
+    }
+
+    .test_word6, .test_word5, .test_word4, .test_word3, .test_word2, .test_word{
+        margin: auto;
+    }
+
+    .test_word6{
+        margin-left: 8%;
+    }
+
+    .test_word{
+        margin-right: 8%;
+    }
+
+    ul{
+        color: $main_dark_color;
+        display: flex;
+        align-items: center;
+        color: black;
+        font-size: 1vw;
+        font-weight: 400;
+    }
+        
+    li{
+        color: $main_dark_color;
+        cursor: pointer; 
+        list-style: none;   
+    }
+}
+
+
+.welcome_window{
+    position: relative;
+
+    .main_picture{
+        
+        & img{
+            max-width: 100%;
+        }
+    }
+
+    .new_trend{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        left: 58.5%;
+
+        & p:first-child{
+            font-weight: 500;
+            color: $main_dark_color;
+            font-size: 1.2vw;
+            margin-top: 50%;
+        }
+
+        & p:nth-of-type(2){
+            color: $main_dark_color;
+            font-size: 4vw;
+            font-weight: 700;
+            margin-top: -5%;
+        }
+
+        & p:last-child{
+            color: $main_dark_color;
+            font-size: 1vw;
+            font-weight: 500;
+            margin-top: -15%;
+        }
+    }
+
+    .buttons{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        top: 80%;
+        left: 58.5%;
+        cursor: pointer;
+
+        .buttons_elem1, .buttons_elem2{
+            background-color: $main_dark_color;
+            font-size: 1.2vw;
+            cursor: pointer;
+            font-weight: 500;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+        }
+
+        .buttons_elem2{
+            white-space: nowrap;
+            margin-left: 10%;
+        }
+    } 
+}
+

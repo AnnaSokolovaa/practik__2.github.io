@@ -1,0 +1,48 @@
+.farewell_window{
+    position: relative;
+
+    .main_picture_2{
+        
+        & img{
+            max-width: 100%;
+            margin-top: 10%;
+        }
+    }
+
+    .OWN_THE_DAY{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 60%;
+        left: 5.5%;
+        font-size: 1vw;
+    }
+    .TACHEN{
+        color: $main_dark_color;
+        font-size: 4vw;
+        font-weight: 700;
+        margin-top: -5%;
+    }
+
+    .buttons{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        top: 75%;
+        left: 5.5%;
+        cursor: pointer;
+
+        .buttons_elem1{
+            background-color: $main_dark_color;
+            font-size: 1.2vw;
+            cursor: pointer;
+            font-weight: 500;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+        }
+    } 
+}
+

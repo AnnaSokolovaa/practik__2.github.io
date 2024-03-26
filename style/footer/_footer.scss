@@ -1,0 +1,237 @@
+.footer{
+    background-color:  #F2F8FC;
+    height: 400px;
+    margin-top: -1%;
+    position: relative;
+}
+.logo_footer{
+    font-size: 2vw;
+    font-weight: 700;
+    color: #22262A;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 8%;
+}
+.advertising_under_logo{
+    position: absolute;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-left: 7%;
+    margin-top: 12%;
+}
+.location{
+    position: absolute;
+    width: 1%;
+    margin-left: 7%;
+    margin-top: 20%;
+    cursor: pointer;
+}
+.adress{
+    position: absolute;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 9%;
+    margin-top: 19.6%;
+}
+.mail{
+    position: absolute;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 7%;
+    margin-top: 23%;
+}
+a{
+    color: #22262A;
+}
+a:hover{
+    color: blue;
+}
+.phone{
+    position: absolute;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 7%;
+    margin-top: 26%;
+}
+.social_media{
+    position: absolute;
+    width: 10%;
+    margin-left: 7%;
+    margin-top: 29%;
+    cursor: pointer;
+}
+.large_text_right_logo{
+    position: absolute;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-left: 50%;
+    margin-top: 8%;
+}
+.emailad {
+    position: absolute;
+    color: #FFFFFF; 
+    height: 10%; 
+    width: 30%;
+    font-weight: 400;
+    font-size: 1vw;
+    padding-bottom: -1%;  
+    border: none;
+}  
+.emailcon {
+    color: #FFFFFF; 
+    margin-left: 50%; 
+    padding-top: 14%;
+}
+.bot1{
+    position: absolute;
+    display: flex;
+    color: $main_dark_color;
+    top: 41.5%;
+    left: 75%;
+    cursor: pointer;
+    height: 11%;
+    width: 8%;
+    .JOIN{
+        background-color: #FFFFFF;
+        font-size: 1.2vw;
+        cursor: pointer;
+        font-weight: 600;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        border: none;
+    }
+}
+@media(max-width: 1024px){
+    .bot1{
+        margin-top: -2.5%;
+    }
+    .two_column{
+        margin-top: 0.5%;
+    }
+    .three_column{
+        margin-top: 0.5%;
+    }
+}
+
+.first_column{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+
+    & p:first-child{
+        font-weight: 600;
+        color: $main_dark_color;
+        font-size: 1.2vw;
+        margin-top: 50%;
+    }
+
+    & p:nth-of-type(2){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: 2%;
+    }
+    & p:nth-of-type(3){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -5%;
+    }
+    & p:nth-of-type(4){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -5%;
+    }
+    & p:last-child{
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -5%;
+    }
+}
+.two_column{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 60%;
+    cursor: pointer;
+
+    & p:first-child{
+        font-weight: 600;
+        color: $main_dark_color;
+        font-size: 1.2vw;
+        margin-top: 50%;
+    }
+
+    & p:nth-of-type(2){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+    & p:nth-of-type(3){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -4%;
+    }
+    & p:nth-of-type(4){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -4%;
+    }
+    & p:last-child{
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -4%;
+    }
+}
+.three_column{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 46%;
+    left: 76%;
+    cursor: pointer;
+
+    & p:first-child{
+        font-weight: 600;
+        color: $main_dark_color;
+        font-size: 1.2vw;
+        margin-top: 50%;
+    }
+
+    & p:nth-of-type(2){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+    & p:nth-of-type(3){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -4%;
+    }
+    & p:nth-of-type(4){
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -4%;
+    }
+    & p:last-child{
+        color: $main_dark_color;
+        font-size: 1vw;
+        font-weight: 400;
+        margin-top: -4%;
+    }
+}
